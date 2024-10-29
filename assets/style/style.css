@@ -1,0 +1,41 @@
+.main {
+  background-color: lavender;
+  padding: 20px;
+  border: 5px inset lightblue;
+}
+
+.title {
+  text-align: center;
+}
+
+.type {
+  font-size: 1.2em;
+  /* font-weight: bold; */
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+button {
+  border-radius: 10px;
+  background-color: skyblue;
+  padding: 10px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.search,
+.search__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.search__result {
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  border: 5px inset lightblue;
+}
