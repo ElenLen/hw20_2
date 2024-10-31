@@ -19,7 +19,7 @@ function onClick() {
   console.log("Выбранная сущность: " + selType);
   console.log("Выбранный id: " + idType);
 
-  fetch("http://swapi.py4e.com/api/" + selType + "/" + idType)
+  fetch("https://swapi.py4e.com/api/" + selType + "/" + idType)
     .then((response) => {
       return response.json();
     })
